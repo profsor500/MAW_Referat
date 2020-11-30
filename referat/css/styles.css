@@ -1,0 +1,307 @@
+/* Fira Sans */
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* FONT IMPORTED */
+.aside {
+  background-color: #a1d6e9;
+}
+
+.footer {
+  background-color: rgba(93, 73, 20, 0.74);
+}
+
+.banner {
+  background-color: #279b27;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+h1 p {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+h2 p {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+h3 p {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+h4 p {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+p p {
+  font-size: 16px;
+}
+
+/*
+   @if $tag == h1
+    {
+        margin-left: 10px;
+    }
+    @else if $tag == h2
+    {
+        margin-left: 7px;
+    }
+    @else
+    {
+        margin-left: 5px;
+        font-weight: normal;
+    }*/
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #6d6d6d;
+  color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+  background-color: #7fffd4;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 14px;
+  display: block;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+h1 p {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+h2 p {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+h3 p {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+h4 p {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+p p {
+  font-size: 16px;
+}
+
+.par, .par2 {
+  text-indent: 10px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.par2 {
+  background-color: grey;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 100%;
+  display: inline-block;
+}
+
+/** HEADER */
+/** NAVIGATION BAR */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.banner {
+  color: #ffffff;
+  padding: 15px;
+}
+
+.aside {
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.footer {
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+/*kolumny*/
+@media only screen and (min-width: 730px) {
+  .col-s-1 {
+    width: 8.33333%;
+  }
+  .col-s-2 {
+    width: 16.66667%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33333%;
+  }
+  .col-s-5 {
+    width: 41.66667%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33333%;
+  }
+  .col-s-8 {
+    width: 66.66667%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33333%;
+  }
+  .col-s-11 {
+    width: 91.66667%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .col-1 {
+    width: 8.33333%;
+  }
+  .col-2 {
+    width: 16.66667%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33333%;
+  }
+  .col-5 {
+    width: 41.66667%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33333%;
+  }
+  .col-8 {
+    width: 66.66667%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33333%;
+  }
+  .col-11 {
+    width: 91.66667%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

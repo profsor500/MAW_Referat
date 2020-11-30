@@ -1,0 +1,29 @@
+$font_sizes:(h1:48px,h2:36px,h3:24px,h4:18px,p:16px);
+@each $tag, $size in $font_sizes
+{
+    #{$tag}{
+        font-size: #{$size};
+        font-weight: bold;
+        @if $tag == h1
+        {
+            margin-left: 50px;
+        }
+        @else if $tag==h2{margin-left:30px;}
+        @else {margin-left:10px}
+
+        p{
+          font-size:#{$size};  
+        }
+    }
+}
+.par
+{
+  text-indent: 10px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+.par2
+{
+    @extend .par;
+    background-color: grey;
+}

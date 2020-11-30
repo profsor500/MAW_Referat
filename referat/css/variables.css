@@ -1,0 +1,77 @@
+.aside {
+  background-color: #a1d6e9;
+}
+
+.footer {
+  background-color: rgba(93, 73, 20, 0.74);
+}
+
+.banner {
+  background-color: #279b27;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+h1 p {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+h2 p {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+h3 p {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+h4 p {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+p p {
+  font-size: 16px;
+}
+
+/*
+   @if $tag == h1
+    {
+        margin-left: 10px;
+    }
+    @else if $tag == h2
+    {
+        margin-left: 7px;
+    }
+    @else
+    {
+        margin-left: 5px;
+        font-weight: normal;
+    }*/
+/*# sourceMappingURL=variables.css.map */
